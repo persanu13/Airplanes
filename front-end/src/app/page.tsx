@@ -17,7 +17,7 @@ export default function Home() {
           <Image
             src={"/assets/play.png"}
             alt="border"
-            width={300}
+            width={306}
             height={60}
           ></Image>
         </button>
@@ -25,7 +25,7 @@ export default function Home() {
           <Image
             src={"/assets/with_a_friend.png"}
             alt="border"
-            width={300}
+            width={200}
             height={60}
           ></Image>
         </button>
