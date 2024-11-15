@@ -1,0 +1,33 @@
+:root {
+  --background: red;
+  --foreground: #171717;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background-image: url("/assets/Fundal.svg");
+  background-repeat: repeat;
+  background-position: -10px -10px;
+  background-attachment: fixed;
+  padding: 0.5rem;
+  display: flex;
+}
+
+.basicButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.basicButton img {
+  width: auto;
+  height: auto;
+}
